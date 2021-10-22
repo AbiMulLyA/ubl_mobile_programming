@@ -80,7 +80,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Email"
+                    android:text="@string/email"
                     android:textColor="@color/headings"
                     android:textSize="13sp" />
 
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="1911511457@student.budiluhur.ac.id"
+                    android:text="@string/my_email"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -109,7 +109,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Phone"
+                    android:text="@string/phone"
                     android:textColor="@color/headings"
                     android:textSize="13sp" />
 
@@ -117,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="0877-3778-7988"
+                    android:text="@string/my_phone"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -138,7 +138,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Instagram"
+                    android:text="@string/instagram"
                     android:textColor="@color/headings"
                     android:textSize="13sp" />
 
@@ -146,7 +146,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="abimulya.2001"
+                    android:text="@string/my_instagram"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -167,7 +167,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Facebook"
+                    android:text="@string/facebook"
                     android:textColor="@color/headings"
                     android:textSize="13sp" />
 
@@ -175,7 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="Ahmad Abi Mulya"
+                    android:text="@string/my_facebook"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -186,10 +186,6 @@
                     android:background="@color/grey" />
 
             </LinearLayout>
-
-
         </LinearLayout>
-
     </RelativeLayout>
-
 </RelativeLayout>
