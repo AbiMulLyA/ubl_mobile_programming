@@ -28,7 +28,7 @@
     <string name="mobile_programming">Mobile Programming</string>
     <string name="my_name">Ahmad Abi Mulya</string>
     <string name="my_nim">1911511457</string>
-    <string name="txt_tugas_1">Tugas 1\nSimple Calculator</string>
+    <string name="txt_tugas_1">Tugas 2\nSimple Calculator</string>
     <string name="email">Email</string>
     <string name="my_email">1911511457@student.budiluhur.ac.id</string>
     <string name="phone">Phone</string>
@@ -37,4 +37,5 @@
     <string name="my_instagram">abimulya.2001</string>
     <string name="facebook">Facebook</string>
     <string name="my_facebook">Ahmad Abi Mulya</string>
+    <string name="tugas_3_send_sms">Tugas 3\nSend SMS</string>
 </resources>

@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import com.example.tugasmobileprog.R;
 import com.example.tugasmobileprog.ui.calculator.CalculatorActivity;
+import com.example.tugasmobileprog.ui.sms.SmsActivity;
 
 import java.math.BigDecimal;
 
@@ -34,12 +35,19 @@ public class HomeFragment extends Fragment{
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-//         Open dialog button
-        Button btn = getView().findViewById(R.id.btn);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btnTugas2 = getView().findViewById(R.id.btnTugas2);
+        btnTugas2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(), CalculatorActivity.class));
+            }
+        });
+
+        Button btnTugas3 = getView().findViewById(R.id.btnTugas3);
+        btnTugas3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), SmsActivity.class));
             }
         });
     }
